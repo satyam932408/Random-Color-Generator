@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa;
+
+
+}
+
+.container {
+  padding: 20px;
+}
+h3{
+    font-size: 1.8rem;
+}
+
+.ran {
+  
+  height: 200px;
+  width: 400px;
+  border: 2px solid #ccc;
+  margin-top: 20px;
+  line-height: 100px;
+  font-weight: bold;
+  color: #111;
+  font-size: 2rem;
+  border-radius: 12px;
+
+  /* Animation */
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+#Generate {
+  background-color: rgb(2, 2, 2);
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: white;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#Generate:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  background-color: #333;
+  cursor: pointer;
+}
+
+
+.ran:hover {
+  transform: scale(1.03);   /*It increase the size of ran by 3% */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
